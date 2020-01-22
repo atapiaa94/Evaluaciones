@@ -24,10 +24,10 @@ funcion resultado=condicional_si()
 	leer sexo
 	
 	si sexo=="F" entonces
-		Escribir nombre," debe ir al baño de mujeres"
+		Escribir nombre," debe ir al baÃ±o de mujeres"
 	FinSi
 	si sexo=="M" Entonces
-		Escribir nombre," debe ir al baño de hombres"
+		Escribir nombre," debe ir al baÃ±o de hombres"
 		
 	SiNo
 		Escribir "El sexo ingresado no es valido"
@@ -46,11 +46,11 @@ funcion resultado=condicional_si_anidado()
 	Escribir "Si desea ducha ingrese SI, si no desea ducha ingrese NO"
 	leer ducha
 	
-	Escribir "Si desea ir al baño ingrese SI, si no desea ir al baño ingrese NO"
+	Escribir "Si desea ir al baÃ±o ingrese SI, si no desea ir al baÃ±o ingrese NO"
 	leer bano
 	
 	si sexo=="F" entonces
-		Escribir nombre," debe ir al baño de mujeres y debe cancelar: "
+		Escribir nombre," debe ir al baÃ±o de mujeres y debe cancelar: "
 		si ducha=="SI" entonces
 			resultado=2500
 			si bano="SI" Entonces
@@ -68,7 +68,7 @@ funcion resultado=condicional_si_anidado()
 		FinSi
 	FinSi
 	si sexo=="M" Entonces
-		Escribir nombre," debe ir al baño de hombres y debe cancelar: "sin saltar
+		Escribir nombre," debe ir al baÃ±o de hombres y debe cancelar: "sin saltar
 		si ducha=="SI" entonces
 			resultado=2500
 			si bano="SI" Entonces
